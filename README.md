@@ -715,7 +715,7 @@ sqlmap -u "http://www.example.com/?id=1" --os-shell
 ```
 ## Useful Resources
 
-[HackTriks](https://book.hacktricks.xyz/)
+[HackTricks](https://book.hacktricks.xyz/)
 
 [WADCOMS](https://wadcoms.github.io/#+SMB+Windows)
 
