@@ -4,7 +4,6 @@ HackTheBox Certified Penetration Tester Specialist Cheatsheet
 ![Alt text](https://academy.hackthebox.com/storage/exam_overview_banners/Fpoo8YaykR3341XtswrcmuyLNcAK6bZ1WF86Ro6v.png)
 
 **Table of Contents**
-- [Tmux](#tmux)
 - [Nmap](#nmap)
   - [Address Scanning](#nmap-address-scanning)
   - [Scanning Techniques](#nmap-scanning-techniques)
@@ -54,39 +53,6 @@ HackTheBox Certified Penetration Tester Specialist Cheatsheet
 
 
 
-## [Tmux](https://tmuxcheatsheet.com/)
-```
-# Start a new tmux session
-tmux new -s <name>
-
-# Start a new session or attach to an existing session named mysession
-tmux new-session -A -s <name>
-
-# List all sessions
-tmux ls
-
-# kill/delete session
-tmux kill-session -t <name>
-
-# kill all sessions but current
-tmux kill-session -a
-
-# attach to last session
-tmux a
-tmux a -t <name>
-
-# start/stop logging with tmux logger
-prefix + [Shift + P]
-
-# split tmux pane vertically
-prefix + [Shift + %}
-
-# split tmux pane horizontally
-prefix + [Shift + "]
-
-# switch between tmux panes
-prefix + [Shift + O]
-```
 
 ## [NMAP](https://www.stationx.net/nmap-cheat-sheet/)
 #### Nmap address scanning
